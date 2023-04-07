@@ -95,21 +95,23 @@ Find the storage engine of the table billdata.**
 
 ![Task 2 7](https://user-images.githubusercontent.com/121275064/230523552-e36a4357-b4d6-41ed-b433-9728a818b9a9.jpg)
 
+**Exercise 3.1 - Prepare the lab environment
+Before you proceed with the assignment, you need to have access to a cloud instance of IBM DB2 database. If you do not have access, use the instructions in this lab Hands-on Lab: Sign up for IBM Cloud and Create a Db2 service instance to create a instance for yourself.**
 
+Download the file billing.csv
 
+**Exercise 3.2 - Restore data
+Task 3.1 - Restore the table billing
+Use the billing.csv you have downloaded earlier, restore the csv file into a table named billing.**
 
+Note: You will see that each column has data type and column width auto generated based on the content. Edit column attributes by clicking on the pencil icon next to the respective attributes to change the width of country column to varchar of 30 and month column to varchar of 7.
 
+![Task 3 1](https://user-images.githubusercontent.com/121275064/230523931-f64857ef-58bc-4282-b82b-539d0d97bf3d.jpg)
 
+**Exercise 3.3 - Create a view
+Task 3.2 - Create a view named basicbilldetailswith the columns customerid, month, billedamount**
 
-
-
-
-
-
-
-
-
-
+![Task 3 2](https://user-images.githubusercontent.com/121275064/230523965-f89eabaa-615b-441a-9a76-44570a95b123.jpg)
 
 
 
